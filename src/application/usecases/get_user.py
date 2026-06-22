@@ -15,4 +15,4 @@ class GetUser(GetUserPort):
             if user is None:
                 raise UserNotFoundError
 
-            return
+            return user
